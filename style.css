@@ -1,0 +1,35 @@
+/*
+ Theme Name:   Candid Child
+ Theme URI:    http://www.pedaldriven.com
+ Description:  Candid Child Theme
+ Author:       John D. Ossowski (with code from https://www.gravityhelp.com/forums/topic/add-a-file-upload-progress-bar#post-6584)
+ Author URI:   http://www.johndeanossowski.com
+ Template:     candid
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+#fakeprogress {
+	background-color:#ceecff;
+	border:2px solid #ADDEFC;
+	background-image:url(http://www.yourdomain.com/wp-content/themes/ThemeName/images/ajax-loader.gif);
+	background-repeat:no-repeat;
+	background-position:center 65px;
+	height:120px;
+	width:400px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-60px;
+	margin-left:-200px;
+	z-index:100;
+}
+#fakeprogress h2 {
+	text-align:center;
+	margin:0;
+	padding:25px 0 0 0;
+	font-weight:bold;
+	font-size:24px;
+	font-family:sans-serif;
+}
