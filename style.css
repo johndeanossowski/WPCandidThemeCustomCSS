@@ -1,0 +1,72 @@
+/*
+Theme Name: Candid Child Theme
+Theme URI: https://arraythemes.com/themes/candid-wordpress-theme/
+Description: Candid empowers you to quickly and easily create beautiful photography-driven photo series and immersive stories with images, galleries, video, audio and more.
+Author: Array
+Author URI: https://arraythemes.com
+Version: 1.0
+Template: candid
+Tags: light, white, two-columns, fluid-layout, responsive-layout, custom-background, custom-colors, custom-menu, editor-style, featured-images, theme-options, translation-ready, blog, photography, clean, minimal, modern, design, art, portfolio, simple, contemporary, infinite-scroll, site-logo
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/*
+This is a starter style.css file for your child theme. For more
+information about child themes, visit the following web page:
+http://codex.wordpress.org/Child_Themes
+*/
+
+/* These were modifications to tighten up the whitespace
+between the navigation menu and the main page content*/
+
+.site-header{
+padding: 60px 0px 0px 0px
+}
+
+.site-content{
+padding: 0
+}
+
+.titles-wrap {
+display:none;
+}
+
+/* The site we built was basically a collection of profiles, so
+we didn't need comments, or mention to comments anywhere.  Here's
+some CSS to take out bloggy things like: Post Author, Date,
+how many comments, cateogry.*/
+
+.byline {
+  display:none;
+}
+
+/*Along with the above, we wanted to hide references to
+blog categories on the thumbnail pictures in the home
+page 'gallery'.  There was also a white left border that needed
+to be removed. These modifications did the trick.@
+*/
+
+.overlay-cats{
+  visibility: hidden
+}
+
+.photo-overlay-text{
+ border-left: 0px !important
+}
+
+/*These next two helped format our gravity form.  The first one removed
+the word 'file' from under the 'choose file' button on the
+file upload field.  The word file seemed redundant here.*/
+
+.ginput_post_image_file{
+visibility: hidden
+}
+
+/* This provided the right backgound color for the form
+and tightened up the whitespace a bit.*/
+
+.post .entry-content form {
+background: #f5f4f0;
+padding: 0;
+}
