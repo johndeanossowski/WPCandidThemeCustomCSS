@@ -33,7 +33,7 @@ display:none;
 }
 
 /* The site we built was basically a collection of profiles, so
-we didn't need comments, or mention to comments anywhere.  Here's
+we didn't need comments, or mention of comments anywhere.  Here's
 some CSS to take out bloggy things like: Post Author, Date,
 how many comments, cateogry.*/
 
@@ -44,7 +44,7 @@ how many comments, cateogry.*/
 /*Along with the above, we wanted to hide references to
 blog categories on the thumbnail pictures in the home
 page 'gallery'.  There was also a white left border that needed
-to be removed. These modifications did the trick.@
+to be removed. These modifications did the trick.
 */
 
 .overlay-cats{
